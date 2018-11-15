@@ -1,4 +1,4 @@
-import ReactTransitionEvents from 'react/lib/ReactTransitionEvents';
+import { CSSTransitionGroup as ReactTransitionEvents} from 'react-transition-group';
 
 export function createReducer(initialState, fnMap) {
   return (state = initialState, {type, payload}) => {
